@@ -3,7 +3,7 @@ Building and compile all your CV documents in one easy and quickly!
 
 Pre-requisites
 --------------
-This software has been developed in python so you can import the following packages to your python 3 (or higher) environment:
+This software has been developed in python so be sure that the following packages are previously added your python 3 (or higher) environment:
 - YAML 0.1.6 (pip install pyyaml)
 
 Package structure
