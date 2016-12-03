@@ -9,9 +9,12 @@ This software has been developed in python so you can import the following packa
 
 Package structure
 -----------------
-
-- examples/ 
+- config/ --> configuration files 
 - examples/documents/ --> contains folders and documents that will be added to the output LATEX CV document
 - examples/templates/ --> contains the LATEX template used 
+
+How to
+------
+1. Set up the configuration file _config.yaml_ located in _config_ folder
 
 
