@@ -1,0 +1,105 @@
+# ------------------
+# main configuration params
+# ------------------
+
+ResourcesTree:
+  # root document path
+  #rootPath: ./examples/documents/
+  rootPath: /home/roberto/RMAGAN/miowncloud/BOLSAS_OPOSICIONES_CONCURSOS_PLAZAS_PREMIOS/ANECA/MERITOS/
+  # As in PEP help guide
+  # I. EXPERIENCIA INVESTIGADORA
+  chapter_1:
+    chapterTitle: 'EXPERIENCIA INVESTIGADORA'
+    chapterPath: experiencia_investigadora/
+    section_1:
+      sectionTitle: 'Publicaciones científicas'
+      sectionPath: 0_publicaciones_cientificas/
+      subsection_11:
+        sectionTitle: 'Artículos en revistas'
+        sectionPath: 0_articulos_en_revistas/
+      subsection_12:
+        sectionTitle: 'Libros y capítulos de libros'
+        sectionPath: 1_libros_y_capitulos_de_libros/
+                
+    section_2:
+      sectionTitle: 'Participación en proyectos de investigación y/o en contratos de I+D'
+      sectionPath: 1_participacion_en_proyectos_contratos_i_mas_d/
+    #section_3:
+      #sectionTitle: 'Patentes y otros resultados de la investigación, especialmentelos que produzcan transferencia tecnológica al sector productivo'
+      #sectionPath: 
+    #section_4:
+      #sectionTitle: ''
+      #sectionPath: /
+    #section_5:
+      #sectionTitle: ''
+      #sectionPath: /
+    section_6:
+      sectionTitle: 'Contribuciones a congresos y conferencias científicas'
+      sectionPath: 2_congresos_y_conferencias/
+    section_7:
+      sectionTitle: 'Otros méritos relevantes de investigación'
+      sectionPath: 3_otros_meritos_investigacion/
+      
+  chapter_2:
+    chapterTitle: 'EXPERIENCIA DOCENTE'
+    chapterPath: experiencia_docente/    
+    section_1:
+      sectionTitle: 'Puestos ocupados y docencia impartida'
+      sectionPath: 0_puestos_ocupados_docencia_impartida/
+    section_2:
+      sectionTitle: 'Cursos y seminarios impartidos'
+      sectionPath: 1_cursos_seminarios_impartidos/
+      addWhiteAfter: True
+    section_3:
+      sectionTitle: 'Cursos y seminarios recibidos y participación en congresos'
+      sectionPath: 2_cursos_seminarios_recibidos/      
+    section_4:
+      sectionTitle: 'Elaboración de material docente y metodológico'
+      sectionPath: 3_elaboracion_material_docente/
+    section_5:
+      sectionTitle: 'Participación en proyectos de innovación docente'
+      sectionPath: 4_proyectos_innovacion_docente/
+    #section_6:
+      #sectionTitle: ''
+      #sectionPath: /
+      
+  chapter_3:
+    chapterTitle: 'FORMACIÓN ACADÉMICA'
+    chapterPath: formacion_academica/
+    section_1:
+      sectionTitle: 'Titulación universitaria'
+      sectionPath: 0_titulacion_universitaria/
+    section_2:
+      sectionTitle: 'Doctorado'
+      sectionPath: 1_doctorado/
+    section_3:
+      sectionTitle: 'Otros títulos de postgrado'
+      sectionPath: 2_titulos_posgrado/
+    section_4:
+      sectionTitle: 'Ayudas y becas'
+      sectionPath: 3_ayudas_becas/
+    section_5:
+      sectionTitle: 'Estancias en centros españoles y extranjeros'
+      sectionPath: 4_estancias/
+    section_6:
+      sectionTitle: 'Cursos y seminarios de especialización'
+      sectionPath: 5_cursos_seminarios_especializacion/     
+    
+  chapter_4:
+    chapterTitle: 'EXPERIENCIA PROFESIONAL'
+    chapterPath: experiencia_profesional/
+    section_1:
+      sectionTitle: 'Actividades de carácter profesional'
+      sectionPath: 0_actividades_caracter_profesional/
+    #section_2:
+      #sectionTitle: 'Otras actividades profesionales'
+      #sectionPath: /
+      
+  chapter_5:
+    chapterTitle: 'OTROS MÉRITOS'
+    chapterPath: otros_meritos/
+  
+    
+      
+GeneralParams:
+ latexTemplatePath: /home/roberto/RMAGAN/miowncloud/BOLSAS_OPOSICIONES_CONCURSOS_PLAZAS_PREMIOS/ANECA/latex/

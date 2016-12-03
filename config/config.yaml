@@ -1,0 +1,54 @@
+# ------------------
+# main configuration params
+# ------------------
+
+ResourcesTree:
+  # root document path - absolute path
+  rootPath: /home/roberto/RMAGAN/nesgownCloud/INVESTIGACION/PROYECTOS/Nacionales/VERITAS/DESARROLLO/SENSOR/workspaceclipse/cvdocs/src/examples/documents/
+  # As in PEP help guide
+  # I. EXPERIENCIA INVESTIGADORA
+  chapter_1:
+    chapterTitle: 'EXPERIENCIA INVESTIGADORA'
+    chapterPath: experiencia_investigadora/
+    section_1:
+      sectionTitle: 'Publicaciones científicas'
+      sectionPath: 0_publicaciones_cientificas/
+      subsection_11:
+        sectionTitle: 'Artículos en revistas'
+        sectionPath: 0_articulos_en_revistas/
+        addWhiteAfter: True # inserting a white pdf page just after the subsection title
+      subsection_12:
+        sectionTitle: 'Libros y capítulos de libros'
+        sectionPath: 1_libros_y_capitulos_de_libros/
+        addWhiteAfter: True
+                
+    section_2:
+      sectionTitle: 'Participación en proyectos de investigación y/o en contratos de I+D'
+      sectionPath: 1_participacion_en_proyectos_contratos_i_mas_d/
+      addWhiteAfter: True
+    #section_3:
+      #sectionTitle: 'Patentes y otros resultados de la investigación'
+      #sectionPath: 11_patentes_resultados_investigacion/
+      #addWhiteAfter: True
+    #section_4:
+      #sectionTitle: ''
+      #sectionPath: /
+    #section_5:
+      #sectionTitle: ''
+      #sectionPath: /
+    section_6:
+      sectionTitle: 'Contribuciones a congresos y conferencias científicas'
+      sectionPath: 2_congresos_y_conferencias/
+      addWhiteBefore: True # inserting a white pdf page just before the section title
+      addWhiteAfter: True
+    section_7:
+      sectionTitle: 'Otros méritos relevantes de investigación'
+      sectionPath: 3_otros_meritos_investigacion/
+      addWhiteAfter: True
+      
+GeneralParams:
+  # Latex template path  
+  latexTemplatePath: ./examples/templates/latex/
+  # Blank extra pdf page path - absolute path
+  blankPDFpath: /home/roberto/RMAGAN/nesgownCloud/INVESTIGACION/PROYECTOS/Nacionales/VERITAS/DESARROLLO/SENSOR/workspaceclipse/cvdocs/src/examples/documents/blank.pdf
+  
