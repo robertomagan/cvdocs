@@ -8,9 +8,10 @@ This software has been developed in python so be sure that the following package
 
 Package structure
 -----------------
-- config/ --> configuration files 
-- examples/documents/ --> contains folders and documents that will be added to the output LATEX CV document
-- examples/templates/ --> contains the LATEX template used 
+- config/ --> _configuration files_
+- examples/documents/ --> _contains folders and documents that will be added to the output LATEX CV document_
+- examples/templates/ --> _contains the LATEX template used_
+- log/ --> _script log folder (see config/logging.yaml config file)_ 
 
 How to
 ------
