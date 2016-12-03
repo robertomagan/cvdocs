@@ -31,10 +31,11 @@ Some useful notes:
 LATEX
 -----
 The script and LATEX file uses the following LATEX package:
-- \usepackage{pdfpages}
+- **\usepackage{pdfpages}**
 
 The user can set up the way of the PDF are compiled in LATEX through modifying the next package directive (see project.tex for more information):
-\includepdfset{pages=-, pagecommand=\thispagestyle{plain}, openright=false, linktodoc=true}
+- **\includepdfset{**pages=-, pagecommand=\thispagestyle{plain}, openright=false, linktodoc=true**}**
+
 Future work
 -----------
 Comments and contributions will be very appreciated ;)
