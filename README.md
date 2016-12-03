@@ -36,9 +36,10 @@ The script and LATEX file uses the following LATEX package:
 The user can set up the way of the PDF are compiled in LATEX through modifying the next package directive (see project.tex for more information):
 - **\includepdfset{**pages=-, pagecommand=\thispagestyle{plain}, openright=false, linktodoc=true**}**
 
-Future work
------------
+Issues & questions
+------------------
 Comments and contributions will be very appreciated ;)
+
 
 
 
