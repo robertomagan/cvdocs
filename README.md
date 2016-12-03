@@ -1,5 +1,5 @@
 # **CVdocs v1.0**
-Sumarizing your CV documents quickly and easily!
+Building and compile all your CV documents in one easy and quickly!
 
 Pre-requisites
 --------------
