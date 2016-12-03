@@ -1,5 +1,4 @@
-###
-cvdocs
+# **CVdocs v1.0**
 Sumarizing your CV documents quickly and easily!
 
 Pre-requisites
