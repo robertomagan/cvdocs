@@ -1,8 +1,0 @@
-\select@language {spanish}
-\contentsline {chapter}{\numberline {1}EXPERIENCIA INVESTIGADORA}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Publicaciones cient\IeC {\'\i }ficas}{1}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Art\IeC {\'\i }culos en revistas}{1}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Libros y cap\IeC {\'\i }tulos de libros}{5}{subsection.1.1.2}
-\contentsline {section}{\numberline {1.2}Participaci\IeC {\'o}n en proyectos de investigaci\IeC {\'o}n y/o en contratos de I+D}{9}{section.1.2}
-\contentsline {section}{\numberline {1.3}Contribuciones a congresos y conferencias cient\IeC {\'\i }ficas}{14}{section.1.3}
-\contentsline {section}{\numberline {1.4}Otros m\IeC {\'e}ritos relevantes de investigaci\IeC {\'o}n}{20}{section.1.4}
