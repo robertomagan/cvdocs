@@ -8,16 +8,16 @@ This software has been developed in python so be sure that the following package
 
 Package structure
 -----------------
-- config/ --> _configuration files_
-- examples/documents/ --> _contains folders and documents that will be added to the output LATEX CV document_
-- examples/templates/ --> _contains the LATEX template used_
-- log/ --> _script log folder (see config/logging.yaml config file)_ 
+- **config/** --> _configuration files_
+- **examples/documents/** --> _contains folders and documents that will be added to the output LATEX CV document_
+-**examples/templates/** --> _contains the LATEX template used_
+- **log/** --> _script log folder (see config/logging.yaml config file)_ 
 
 How to
 ------
 1. Set up the configuration file _config.yaml_ located in _config_ folder. The structure and params to be configured are self-explained and described in _config.yaml_.
-2. Run python3 main.py This generates the body latex file (body.tex) built and copied to the corresponding latex template. See the attached example.
-3. Compile the complete LATEX document
+2. Run **python3 main.py** This generates the body latex file (body.tex) built and copied to the corresponding latex template. See the attached example.
+3. Compile the complete LATEX document (project.tex in latex folder)
 4. See the results and enjoy!
 
 Notes
