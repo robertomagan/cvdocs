@@ -1,8 +1,14 @@
-'''
-Created on 2 sept. 2016
-
-@author: roberto
-'''
+# -*- coding: utf-8 -*-
+"""
+    :mod:`configure`
+    ===========================================================================
+    :synopsis: Load the configuration in config/config.yaml in a singleton object
+    :author: Roberto Magán Carrión
+    :contact: robertomagan@gmail.com, rmagan@ugr.es
+    :organization: University of Granada
+    :project: cvdocs
+    :since: 1.0 
+"""
 
 import yaml
 from cvdocs.exception.exception import ConfigError

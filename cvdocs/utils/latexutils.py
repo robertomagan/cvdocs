@@ -1,8 +1,14 @@
-'''
-Created on 20 nov. 2016
-
-@author: roberto
-'''
+# -*- coding: utf-8 -*-
+"""
+    :mod:`latexutils`
+    ===========================================================================
+    :synopsis: LATEX utilities
+    :author: Roberto Magán Carrión
+    :contact: robertomagan@gmail.com, rmagan@ugr.es
+    :organization: University of Granada
+    :project: cvdocs
+    :since: 1.0 
+"""
 
 def create_chapter(name):
     return '\chapter{' + name + '}'

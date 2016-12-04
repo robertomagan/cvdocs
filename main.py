@@ -1,8 +1,14 @@
-'''
-Created on 18 nov. 2016
-
-@author: roberto
-'''
+# -*- coding: utf-8 -*-
+"""
+    :mod:`main`
+    ===========================================================================
+    :synopsis: Contains the description and definitios of every kind of error (exception) that could be raised
+    :author: Roberto Magán Carrión
+    :contact: robertomagan@gmail.com, rmagan@ugr.es
+    :organization: University of Granada
+    :project: cvdocs
+    :since: 1.0 
+"""
 import sys
 import yaml
 import logging.config
