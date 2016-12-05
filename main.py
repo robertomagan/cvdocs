@@ -2,7 +2,7 @@
 """
     :mod:`main`
     ===========================================================================
-    :synopsis: Contains the description and definitios of every kind of error (exception) that could be raised
+    :synopsis: main script
     :author: Roberto Magán Carrión
     :contact: robertomagan@gmail.com, rmagan@ugr.es
     :organization: University of Granada
