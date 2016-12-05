@@ -16,7 +16,7 @@ Package structure
 How to
 ------
 1. Set up the configuration file _config.yaml_ located in _config_ folder. The structure and params to be configured are self-explained and described in _config.yaml_.
-2. Run **python3 main.py** This generates the body latex file (body.tex) built and copied to the corresponding latex template. See the attached example.
+2. Run **python3 main.py** This generates the body latex file (body.tex) being then copied to the corresponding latex template. See the attached example.
 3. Compile the complete LATEX document (project.tex in latex folder)
 4. See the results and enjoy!
 
@@ -24,16 +24,16 @@ Notes
 -----
 Some useful notes:
 - The script searchs for PDF documents through the folder hierarchy configured in _config.yaml_.
-- The files found in a specific folder are lexicographycally ordered and inserted in the output latex file.
-- Double slash ## found in the file name means that it is excluded from the compilation.
-- You can add blank PDF files either before a section/subsection/chapter or after them by using the corresponding configuration param in the _config.yaml_ (See the examples)
+- The files found in folders are lexicographycally ordered to be inserted in the output latex file.
+- Double slash ## found in the file name means that it is will be excluded from the compilation.
+- You can add blank PDF files either before a section/subsection/chapter or after them by using the corresponding configuration param in the _config.yaml_ (see the examples)
 
 LATEX
 -----
-The script and LATEX file uses the following LATEX package:
+The script and LATEX files use the following LATEX package:
 - **\usepackage{pdfpages}**
 
-The user can set up the way of the PDF are compiled in LATEX through modifying the next package directive (see project.tex for more information):
+The user can set up the way of the PDF are inserted and compiled in LATEX, just modifying the next package directive (see project.tex for more information):
 - **\includepdfset{**pages=-, pagecommand=\thispagestyle{plain}, openright=false, linktodoc=true**}**
 
 Issues & questions
