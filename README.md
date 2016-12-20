@@ -1,5 +1,5 @@
 # **CVdocs v1.0**
-Building and compile all your CV documents easy and quickly!
+Building and compiling all your CV documents easy and quickly!
 
 Pre-requisites
 --------------
