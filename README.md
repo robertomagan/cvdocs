@@ -3,7 +3,7 @@ Building and compile all your CV documents easy and quickly!
 
 Pre-requisites
 --------------
-This software has been developed in python so be sure that the following packages are previously added your python 3 (or higher) environment:
+This software has been developed in python so you must be sure that the following packages are previously added to your python 3 (or higher) environment:
 - YAML 0.1.6 (pip install pyyaml)
 
 Package structure
@@ -16,17 +16,17 @@ Package structure
 How to
 ------
 1. Set up the configuration file _config.yaml_ located in _config_ folder. The structure and params to be configured are self-explained and described in _config.yaml_.
-2. Run **python3 main.py** This generates the body latex file (body.tex) being then copied to the corresponding latex template. See the attached example.
-3. Compile the complete LATEX document (project.tex in latex folder)
+2. Run **python3 main.py** This generates the body latex file (body.tex). After that it is copied to the corresponding latex template location. See the attached example.
+3. Compile the complete LATEX document (i.e, the project.tex document located in the latex folder)
 4. See the results and enjoy!
 
 Notes
 -----
 Some useful notes:
-- The script searchs for PDF documents through the folder hierarchy configured in _config.yaml_.
-- The files found in folders are lexicographycally ordered to be inserted in the output latex file.
-- Double slash ## found in the file name means that it is will be excluded from the compilation.
-- You can add blank PDF files either before a section/subsection/chapter or after them by using the corresponding configuration param in the _config.yaml_ (see the examples)
+- The script searchs for PDF documents through the folder hierarchy previously configured in _config.yaml_.
+- The files found in these folders are lexicographycally ordered to be inserted in the output latex file.
+- Double slash ## found in the file name means that it will be excluded from the compilation. In others word, it will not be  appear en the final latex document.
+- You can add blank PDF files either before a section/subsection/chapter or after them by using the corresponding configuration param in the _config.yaml_ (See the examples)
 
 LATEX
 -----
