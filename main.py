@@ -21,6 +21,10 @@ from cvdocs.exception.exception import ConfigError
 from cvdocs.config.configure import Configure
 import os
 
+# character encoding utf-8
+reload(sys)
+sys.setdefaultencoding('utf8')
+
 CHAPTER = 'chapter'
 SECTION = 'section'
 SUBSECTION = 'sub' + SECTION
